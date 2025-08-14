@@ -1,0 +1,29 @@
+.info-card{
+    width: 350px;
+    min-height: 160px;
+    padding-left: 10px; 
+    padding-top: 10px;     
+    box-sizing: border-box;
+}
+
+.info-card-side-line{
+    border-left: 4px solid #324a5f;    
+}
+
+.info-card-full-card{
+    border: 2px solid #324a5f;
+    background-color: rgb(0, 0, 0,0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 20px;    
+}
+
+.info-card p{
+    margin-bottom: 10px;
+}
+
+.tech-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

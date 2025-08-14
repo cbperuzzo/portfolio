@@ -1,0 +1,10 @@
+.logo-box{
+    background-color: #1E2D48;
+    color:#D0CDDF ;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
