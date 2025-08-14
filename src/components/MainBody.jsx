@@ -3,6 +3,7 @@ import { Education } from './Education'
 import { Experience } from './Experience'
 import { MyProjects } from './MyProjects'
 
+
 //texto vem de props
 //info cards vem de props
 

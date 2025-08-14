@@ -44,7 +44,7 @@ body {
 
 	background: #0C1821;
 	background: linear-gradient(90deg,rgba(12, 24, 33, 1) 0%, rgba(24, 36, 58, 1) 40%, rgba(12, 24, 33, 1) 100%);
-
+	box-sizing: border-box;
 
 }
 ol, ul {

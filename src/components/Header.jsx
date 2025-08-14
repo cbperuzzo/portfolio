@@ -12,7 +12,7 @@ export function Header(){
                         <p className='logo-name logo-font'>Caetano Peruzzo</p>
                     </li>
                 </ul>
-                <ul className='sub-nav-items'>
+                <ul className='sub-nav-items fat-medium-text-font'>
                     <li>Projetos</li>
                     <li>Habilidades</li>
                     <li>Experiência</li>

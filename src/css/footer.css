@@ -1,0 +1,29 @@
+.main-footer{
+    margin-top: 400px;
+    height: 400px;
+    background-color: #0C1821;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-div{   
+    width: 60%;
+    margin-top: 80px;
+}
+
+.contact-items{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.contact-items li:hover{
+    color: #A29BBF;
+}
+
+.contact-items li:hover:last-of-type{
+    color: inherit;
+    cursor:text;
+}

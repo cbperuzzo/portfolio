@@ -33,3 +33,8 @@
     font-weight: 350;
     color: #A29BBF;
 }
+
+.fat-medium-text-font{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
