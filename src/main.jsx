@@ -20,12 +20,11 @@ import { ContactForm } from './components/ContactForm'
 import content from './data/content.json'
 
 createRoot(document.getElementById('root')).render(
-  
   <>
     <Header
       experience = {content.header.experience}
       projects = {content.header.projects}
-      skills = {content.header.skills}
+      about = {content.header.about}
       contact = {content.header.contact}
     />
     <Hero

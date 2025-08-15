@@ -1,6 +1,6 @@
 .main-footer{
     margin-top: 400px;
-    height: 200px;
+    height: 150px;
     background-color: #0C1821;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
@@ -8,14 +8,14 @@
 }
 
 .contact-div{   
-    width: 60%;
-    margin-top: 50px;
+    width: 75%;
+    margin-top: 30px;
 }
 
 .contact-items{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     cursor: pointer;
     list-style-type:disc;
 }

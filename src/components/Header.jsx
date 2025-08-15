@@ -15,7 +15,7 @@ export function Header(props){
                 <ul className='sub-nav-items fat-medium-text-font'>
                     <li>{props.experience}</li>
                     <li>{props.projects}</li>
-                    <li>{props.skills}</li>
+                    <li>{props.about}</li>
                     <li>{props.contact}</li>
                 </ul>
             </ul>

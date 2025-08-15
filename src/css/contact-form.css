@@ -6,10 +6,11 @@
 }
 
 form.contact-form{
-    width: 500px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     padding-bottom: 0px;
+    box-sizing: border-box;
     
 }
 
@@ -69,4 +70,10 @@ form.contact-form{
 
 .submit-contact-button:hover{
     transform: translateY(-2px);
+}
+
+@media (max-width:1100px) {
+    form.contact-form{
+        width: 90%; 
+    }
 }

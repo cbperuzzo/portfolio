@@ -1,5 +1,5 @@
 .info-card{
-    width: 350px;
+    max-width: 350px;
     min-height: 160px;
     padding-left: 10px; 
     padding-top: 10px;     
