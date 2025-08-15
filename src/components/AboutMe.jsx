@@ -1,6 +1,6 @@
 export function AboutMe(props){
     return(
-        <section className='big-card about-me'>
+        <section ref={props.aboutRef} className='big-card about-me'>
                         
             <h1 className='big-card-title about-me-title medium-title-font'>
                 {props.title}

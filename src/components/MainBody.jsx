@@ -3,7 +3,6 @@ import { Education } from './Education'
 import { Experience } from './Experience'
 import { MyProjects } from './MyProjects'
 
-
 //texto vem de props
 //info cards vem de props
 
@@ -13,6 +12,7 @@ export function MainBody(props){
             <AboutMe
                 title={props.aboutMe.title}
                 text={props.aboutMe.text}
+                aboutRef = {props.aboutRef}
             />
             <Education
                 title={props.education.title}
@@ -21,10 +21,12 @@ export function MainBody(props){
             <Experience
                 title={props.experience.title}
                 infoCards={props.experience.infoCards}
+                experienceRef={props.experienceRef}
             />
             <MyProjects
                 title={props.projects.title}
                 infoCards={props.projects.infoCards}
+                projectsRef={props.projectsRef}
             />
         </main>
     )

@@ -1,8 +1,10 @@
 import { LogoBox } from './LogoBox';
+import { scrollToRef } from '../scrollToRef';
 
 //texto vem de props
 
 export function Header(props){
+
     return(
         <nav className='header-nav'>
             <ul className='nav-items'>
@@ -13,10 +15,18 @@ export function Header(props){
                     </li>
                 </ul>
                 <ul className='sub-nav-items fat-medium-text-font'>
-                    <li>{props.experience}</li>
-                    <li>{props.projects}</li>
-                    <li>{props.about}</li>
-                    <li>{props.contact}</li>
+                    <li
+                        onClick={ () => scrollToRef(props.refs.about)}
+                    >{props.about}</li>
+                    <li 
+                        onClick={ () => scrollToRef(props.refs.experience)}
+                    >{props.experience}</li>
+                    <li
+                        onClick={ () => scrollToRef(props.refs.projects)}
+                    >{props.projects}</li>
+                    <li
+                        onClick={ () => scrollToRef(props.refs.contact)}
+                    >{props.contact}</li>
                 </ul>
             </ul>
         </nav>

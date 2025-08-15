@@ -1,6 +1,6 @@
 export function ContactForm(props){
     return(
-        <section className="contact-form-section">
+        <section ref={props.contactRef} className="contact-form-section">
             <form className="contact-form big-card">
                 <h1 className="contact-me-title medium-title-font">
                     {props.title}

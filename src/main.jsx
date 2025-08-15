@@ -17,11 +17,28 @@ import { Skills } from './components/Skills'
 import { Footer } from './components/Footer'
 import { ContactForm } from './components/ContactForm'
 
+import { useRef } from 'react'
+
 import content from './data/content.json'
 
-createRoot(document.getElementById('root')).render(
+function Page(){
+
+  const aboutRef = useRef(null);
+  const experienceRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactRef = useRef(null);
+
+  return(
   <>
     <Header
+      refs = {
+        {
+          about:aboutRef,
+          experience:experienceRef,
+          projects:projectsRef,
+          contact:contactRef
+        }
+      }
       experience = {content.header.experience}
       projects = {content.header.projects}
       about = {content.header.about}
@@ -32,6 +49,9 @@ createRoot(document.getElementById('root')).render(
       text = {content.hero.text}
     />
     <MainBody
+      aboutRef = {aboutRef}
+      experienceRef = {experienceRef} 
+      projectsRef = {projectsRef}
       aboutMe = {content.aboutMe}
       education = {content.education}
       experience = {content.experience}
@@ -42,6 +62,7 @@ createRoot(document.getElementById('root')).render(
       skills = {content.skills.skills}
     />
     <ContactForm
+      contactRef={contactRef}
       rowCount={content.contactForm.rowCount}
       title={content.contactForm.title}
       name={content.contactForm.name}
@@ -54,4 +75,10 @@ createRoot(document.getElementById('root')).render(
       github={content.footer.github}
     />
   </>
+  )
+}
+
+
+createRoot(document.getElementById('root')).render(
+  <Page/>
 )
