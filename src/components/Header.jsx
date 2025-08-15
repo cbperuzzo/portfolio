@@ -13,9 +13,9 @@ export function Header(){
                     </li>
                 </ul>
                 <ul className='sub-nav-items fat-medium-text-font'>
+                    <li>Experiência</li>
                     <li>Projetos</li>
                     <li>Habilidades</li>
-                    <li>Experiência</li>
                     <li>Contato</li>
                 </ul>
             </ul>

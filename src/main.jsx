@@ -8,12 +8,14 @@ import './css/logo-box.css'
 import './css/skills.css'
 import './css/word-blob.css'
 import './css/footer.css'
+import './css/contact-form.css'
 import { createRoot } from 'react-dom/client'
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { MainBody } from './components/MainBody'
 import { Skills } from './components/Skills'
 import { Footer } from './components/Footer'
+import { ContactForm } from './components/ContactForm'
 
 createRoot(document.getElementById('root')).render(
   
@@ -29,7 +31,7 @@ createRoot(document.getElementById('root')).render(
         ]
       }
     />
+    <ContactForm textarea={{rows:10}}/>
     <Footer/>
   </>
-  
 )
