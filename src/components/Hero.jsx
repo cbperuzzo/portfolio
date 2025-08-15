@@ -1,12 +1,12 @@
 //texto vem de props
 
-export function Hero(){
+export function Hero(props){
     return(
     <section className='hero-section'>
         <div className='hero-text'>
-            <h1 className='hero-text-title big-title-font'>Olá, eu sou Caetano</h1>
+            <h1 className='hero-text-title big-title-font'>{props.title}</h1>
             <p className='hero-text-body big-text-font'>
-                Desenvolvedor Web com experiência em front-end e back-end, construindo soluções completas e escaláveis.
+                {props.text}
             </p>
         </div>
         <div className='hero-image-frame'>

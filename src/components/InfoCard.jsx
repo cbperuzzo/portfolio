@@ -19,7 +19,7 @@ export function InfoCard(props){
     
 
     return(
-        <div className={"info-card"+" "+"info-card-"+props.InfoCardType}>
+        <div className={"info-card"+" "+"info-card-"+props.infoCardType}>
             {lines}
             {isTech ? <p className='info-card-title'>{props.techTitle}</p> :null }
             

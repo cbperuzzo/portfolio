@@ -2,15 +2,15 @@
     "header":{
         "experience":"Experiência",
         "projects":"Projetos",
-        "skills":"skills",
-        "contact":"contact"
+        "skills":"Habilidades",
+        "contact":"Contato"
     },
     "hero":{
         "title":"Olá, eu sou Caetano",
         "text":"Desenvolvedor Web com experiência em front-ende back-end, construindo soluções completas e escaláveis."
     },
     "aboutMe":{
-        "title":"Sobre Mim",
+        "title":"Sobre Mim:",
         "text":"Atualmente, sou estudante de Ciência da Computação na UFSC. Tenho grande interesse em desenvolvimento web e em Estruturas de Dados e Algoritmos."
     },
     "education":{
@@ -102,15 +102,17 @@
     },
     "skills":{
         "title":"Habilidades Técnicas:",
-        "tech":[
+        "skills":[
             "C++","Java","Spring","PHP","Laravel","JS","React","PostgreSQL","Docker","Git","Linux"
         ]
     },
     "contactForm":{
+        "rowCount":10,
         "title":"Contato",
         "name":"Nome:",
         "email":"Email:",
-        "message":"Mensagem:"
+        "message":"Mensagem:",
+        "send":"Enviar"
     },
     "footer":{
         "email":"cbperuzzo4@gmail.com",

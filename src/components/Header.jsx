@@ -2,7 +2,7 @@ import { LogoBox } from './LogoBox';
 
 //texto vem de props
 
-export function Header(){
+export function Header(props){
     return(
         <nav className='header-nav'>
             <ul className='nav-items'>
@@ -13,10 +13,10 @@ export function Header(){
                     </li>
                 </ul>
                 <ul className='sub-nav-items fat-medium-text-font'>
-                    <li>Experiência</li>
-                    <li>Projetos</li>
-                    <li>Habilidades</li>
-                    <li>Contato</li>
+                    <li>{props.experience}</li>
+                    <li>{props.projects}</li>
+                    <li>{props.skills}</li>
+                    <li>{props.contact}</li>
                 </ul>
             </ul>
         </nav>

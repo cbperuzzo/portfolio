@@ -22,18 +22,37 @@ import content from './data/content.json'
 createRoot(document.getElementById('root')).render(
   
   <>
-    <Header/>
-    <Hero/>
-    <MainBody/>
-    <Skills
-      title="Habilidades Técnicas:"
-      skills = {
-        [
-        "C++","Java","Spring","PHP","Laravel","JS","React","PostgreSQL","Docker","Git","Linux"
-        ]
-      }
+    <Header
+      experience = {content.header.experience}
+      projects = {content.header.projects}
+      skills = {content.header.skills}
+      contact = {content.header.contact}
     />
-    <ContactForm textarea={{rows:10}}/>
-    <Footer/>
+    <Hero
+      title = {content.hero.title}
+      text = {content.hero.text}
+    />
+    <MainBody
+      aboutMe = {content.aboutMe}
+      education = {content.education}
+      experience = {content.experience}
+      projects = {content.projects}
+    />
+    <Skills
+      title={content.skills.title}
+      skills = {content.skills.skills}
+    />
+    <ContactForm
+      rowCount={content.contactForm.rowCount}
+      title={content.contactForm.title}
+      name={content.contactForm.name}
+      email={content.contactForm.email}
+      message={content.contactForm.message}
+      send={content.contactForm.send}
+    />
+    <Footer
+      email={content.footer.email}
+      github={content.footer.github}
+    />
   </>
 )
