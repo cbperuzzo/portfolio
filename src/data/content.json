@@ -1,3 +1,121 @@
 {
-    
+    "header":{
+        "experience":"Experiência",
+        "projects":"Projetos",
+        "skills":"skills",
+        "contact":"contact"
+    },
+    "hero":{
+        "title":"Olá, eu sou Caetano",
+        "text":"Desenvolvedor Web com experiência em front-ende back-end, construindo soluções completas e escaláveis."
+    },
+    "aboutMe":{
+        "title":"Sobre Mim",
+        "text":"Atualmente, sou estudante de Ciência da Computação na UFSC. Tenho grande interesse em desenvolvimento web e em Estruturas de Dados e Algoritmos."
+    },
+    "education":{
+        "title":"Formação:",
+        "infoCards":[
+            {
+                "lines":[
+                    {"type":"subtitle","body":"Técnico em desenvolvimento Web"},
+                    {"type":"subtitle","body":"UNIDAVI"},
+                    {"type":"dark-text","body":"abr 2022 - nov 2022"}
+                ],
+                "tech":[
+                    "PHP","Laravel","PostgreSQL","JS"
+                ],
+                "techTitle":"Tecnologias:",
+                "infoCardType":"side-line"
+            },
+            {
+                "lines":[
+                    {"type":"subtitle","body":"Ciência da computação"},
+                    {"type":"subtitle","body":"UFSC"},
+                    {"type":"dark-text","body":"mar 2024 - momento"}
+                ],
+                "tech":[
+                    "C++","Java","Python"
+                ],
+                "techTitle":"Tecnologias:",
+                "infoCardType":"side-line"
+            }
+        ]
+    },
+    "experience":{
+        "title":"Experiência:",
+        "infoCards":[
+            {
+                "lines":[
+                            {"type":"subtitle","body":"Técnico em desenvolvimento Web"},
+                            {"type":"subtitle","body":"UNIDAVI"},
+                            {"type":"dark-text","body":"abr 2022 - nov 2022"}
+                ],
+                "tech":[
+                    "PHP","Laravel","PostgreSQL","JS"
+                ],
+                "techTitle":"Tecnologias:",
+                "infoCardType":"side-line"
+            },
+            {
+                "lines":[
+                            {"type":"subtitle","body":"Ciência da computação"},
+                            {"type":"subtitle","body":"UFSC"},
+                            {"type":"dark-text","body":"mar 2024 - momento"}
+                ],
+                "tech":[
+                    "C++","Java","Python"
+                ],
+                "techTitle":"Tecnologias:",
+                "infoCardType":"side-line"
+            }
+        ]
+    },
+    "projects":{
+        "title":"Projetos Pessoais:",
+        "infoCards":[
+            {
+                "lines":[
+                            {"type":"subtitle","body":"Técnico em desenvolvimento Web"},
+                            {"type":"subtitle","body":"UNIDAVI"},
+                            {"type":"dark-text","body":"abr 2022 - nov 2022"}
+                ],
+                "tech":[
+                    "PHP","Laravel","PostgreSQL","JS"
+                ],
+                "techTitle":"Tecnologias:",
+                "infoCardType":"side-line"
+            },
+            {
+                "lines":[
+                            {"type":"subtitle","body":"Ciência da computação"},
+                            {"type":"subtitle","body":"UFSC"},
+                            {"type":"dark-text","body":"mar 2024 - momento"}
+                ],
+                "tech":[
+                    "C++","Java","Python"
+                ],
+                "techTitle":"Tecnologias:",
+                "infoCardType":"side-line"
+            }
+        ]
+    },
+    "skills":{
+        "title":"Habilidades Técnicas:",
+        "tech":[
+            "C++","Java","Spring","PHP","Laravel","JS","React","PostgreSQL","Docker","Git","Linux"
+        ]
+    },
+    "contactForm":{
+        "title":"Contato",
+        "name":"Nome:",
+        "email":"Email:",
+        "message":"Mensagem:"
+    },
+    "footer":{
+        "email":"cbperuzzo4@gmail.com",
+        "github":"https://github.com/cbperuzzo"
+    }
+
+
 }

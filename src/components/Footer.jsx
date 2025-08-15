@@ -5,7 +5,6 @@ export function Footer(){
                 <ul className="contact-items fat-medium-text-font">
                     <li>E-mail</li>
                     <li>github</li>
-                    <li>telefone</li>
                 </ul>
             </div>
         </footer>

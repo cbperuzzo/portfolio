@@ -17,6 +17,8 @@ import { Skills } from './components/Skills'
 import { Footer } from './components/Footer'
 import { ContactForm } from './components/ContactForm'
 
+import content from './data/content.json'
+
 createRoot(document.getElementById('root')).render(
   
   <>
