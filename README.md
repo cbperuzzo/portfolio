@@ -1,5 +1,3 @@
-# My portfolio
-
 A personal portfolio website built with React to showcase my projects, skills, and contact information, featuring smooth navigation and a modern UI.
 
 ## Installation
