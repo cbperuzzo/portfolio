@@ -1,4 +1,4 @@
-import { infoCardGen } from "../aux/InfoCardGen"
+import { InfoCardGroup } from "./InfoCard"
 
 export function Experience(props){
     return(
@@ -7,7 +7,7 @@ export function Experience(props){
                 {props.title}
             </h1>
             <div className='cards-box experience-cards-box'>
-                {infoCardGen(props.infoCards)}
+                <InfoCardGroup infoCards={props.infoCards}></InfoCardGroup>
             </div>
         </section>
     )

@@ -1,4 +1,4 @@
-import { infoCardGen } from "../aux/InfoCardGen"
+import { InfoCardGroup } from "./InfoCard"
 
 export function Education(props){
 
@@ -8,7 +8,7 @@ export function Education(props){
                 {props.title}
             </h1>
             <div className='cards-box education-cards-box'>
-                {infoCardGen(props.infoCards)}
+                <InfoCardGroup infoCards={props.infoCards}></InfoCardGroup>
             </div>
         </section>
     )
