@@ -1,6 +1,6 @@
 
-import { InfoCardGroup } from "../components/InfoCard"
-import { useContent,useRefs } from "../context/AppContext"
+import { InfoCardGroup } from "../../components/InfoCard"
+import { useContent,useRefs } from "../../context/AppContext"
 
 export function MyProjects(){
 

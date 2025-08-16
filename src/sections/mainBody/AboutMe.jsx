@@ -1,5 +1,5 @@
 
-import { useContent,useRefs } from "../context/AppContext";
+import { useContent,useRefs } from "../../context/AppContext";
 
 export function AboutMe(){
 

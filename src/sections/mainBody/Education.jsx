@@ -1,5 +1,5 @@
-import { InfoCardGroup } from "../components/InfoCard"
-import { useContent } from "../context/AppContext"
+import { InfoCardGroup } from "../../components/InfoCard"
+import { useContent } from "../../context/AppContext"
 
 export function Education(){
     
