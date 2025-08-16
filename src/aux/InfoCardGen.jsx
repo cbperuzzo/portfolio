@@ -1,4 +1,4 @@
-import { InfoCard } from "./components/InfoCard";
+import { InfoCard } from "../components/InfoCard";
 
 export function infoCardGen(infoCards){
     const infoCardsComponents = infoCards.map( (ic,index) => {
@@ -7,7 +7,7 @@ export function infoCardGen(infoCards){
                 key = {index}
                 lines = {ic.lines}
                 tech = {ic.tech}
-                tehcTitle = {ic.tehcTitle}
+                techTitle = {ic.techTitle}
                 infoCardType = {ic.infoCardType}
             />
         )

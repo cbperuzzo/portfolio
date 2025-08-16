@@ -1,5 +1,5 @@
 import { LogoBox } from './LogoBox';
-import { scrollToRef } from '../scrollToRef';
+import { scrollToRef } from '../aux/scrollToRef';
 
 //texto vem de props
 

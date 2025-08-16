@@ -7,6 +7,7 @@ export function ContactForm(props){
     const emailRef = useRef()
     const messageRef = useRef()
 
+    
     function submit(e){
         e.preventDefault();
         setTimeout( () => {

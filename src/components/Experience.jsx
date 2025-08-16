@@ -1,4 +1,4 @@
-import { infoCardGen } from "../InfoCardGen"
+import { infoCardGen } from "../aux/InfoCardGen"
 
 export function Experience(props){
     return(

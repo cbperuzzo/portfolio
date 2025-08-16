@@ -3,8 +3,12 @@ export function Footer(props){
         <footer className="main-footer">
             <div className="contact-div">
                 <ul className="contact-items fat-medium-text-font">
-                    <li>{props.email}</li>
-                    <li>{props.github}</li>
+                    <li>
+                        <a href={props.email.href}>{props.email.text}</a>
+                    </li>
+                    <li>
+                        <a href={props.github.href}>{props.github.text}</a>
+                    </li>
                 </ul>
             </div>
         </footer>

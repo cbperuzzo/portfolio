@@ -2,6 +2,15 @@ import { WordBlob } from './WordBlob'
 
 export function InfoCard(props){
     const lines = props.lines.map( (l,index) => {
+        if(l.type === "link"){
+            return(
+                <p key={index}>
+                    <a href={l.href} className='link-font link-font-small'>
+                        {l.body}
+                    </a>
+                </p>
+            )
+        }
         return(
             <p key={index} className={l.type}>
                 {l.body}
@@ -10,7 +19,7 @@ export function InfoCard(props){
     })
 
 
-    const isTech = Array.isArray(props.tech)
+    const isTech =Array.isArray(props.tech)
     const tech = props.tech.map( (t,index) => {
         return(
             <WordBlob key={index} text={t}/>

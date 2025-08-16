@@ -1,5 +1,5 @@
 .main-footer{
-    margin-top: 400px;
+    margin-top: 200px;
     height: 150px;
     background-color: #0C1821;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -18,8 +18,11 @@
     gap: 20px;
     cursor: pointer;
     list-style-type:disc;
+    color: #AEA8C7;
+    
 }
 
-.contact-items li:hover{
-    color: #A29BBF;
+.contact-items a{
+    color: #AEA8C7;
+    text-decoration: underline;
 }

@@ -2,8 +2,9 @@
     max-width: 350px;
     min-height: 160px;
     padding-left: 10px; 
-    padding-top: 10px;     
-    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;     
+    
 }
 
 .info-card-side-line{

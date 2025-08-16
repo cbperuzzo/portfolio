@@ -38,3 +38,15 @@
     font-weight: 600;
     font-size: 1rem;
 }
+
+.link-font{
+    color: #5276B7;
+}
+.link-font:visited{
+    color:#5276B7;
+}
+
+.link-font-small{
+    font-size: 1rem;
+    font-weight: 500;
+}
